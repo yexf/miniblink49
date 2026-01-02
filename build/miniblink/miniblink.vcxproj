@@ -163,7 +163,7 @@
     <IntDir>$(SolutionDir)..\out\tmp\$(Platform)$(ProjectName)\$(Configuration)\</IntDir>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
     <UseNativeEnvironment>false</UseNativeEnvironment>
-    <TargetName>miniblink_4975_x64</TargetName>
+    <TargetName>miniblink</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoNode|x64'">
     <GenerateManifest>false</GenerateManifest>

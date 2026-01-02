@@ -1620,9 +1620,11 @@
     </ClCompile>
     <ClCompile Include="..\..\v8_7_5\src\compiler\backend\ia32\instruction-scheduler-ia32.cc">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\v8_7_5\src\compiler\backend\ia32\instruction-selector-ia32.cc">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\v8_7_5\src\compiler\backend\instruction-scheduler.cc" />
     <ClCompile Include="..\..\v8_7_5\src\compiler\backend\instruction-selector.cc" />
