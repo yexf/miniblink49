@@ -4604,12 +4604,6 @@
     <ClCompile Include="..\..\v8_7_5\src\compiler\backend\ia32\code-generator-ia32.cc">
       <Filter>src\compiler\backend\ia32</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\v8_7_5\src\compiler\backend\ia32\instruction-scheduler-ia32.cc">
-      <Filter>src\compiler\backend\ia32</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\v8_7_5\src\compiler\backend\ia32\instruction-selector-ia32.cc">
-      <Filter>src\compiler\backend\ia32</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\v8_7_5\src\compiler\backend\x64\code-generator-x64.cc">
       <Filter>src\compiler\backend\x64</Filter>
     </ClCompile>
@@ -5038,6 +5032,12 @@
     </ClCompile>
     <ClCompile Include="..\..\gen\v8_7_5\torque-generated\builtins-array-from-dsl-gen-64.cc">
       <Filter>src\gen\torque-generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\v8_7_5\src\compiler\backend\ia32\instruction-scheduler-ia32.cc">
+      <Filter>src\compiler\backend\ia32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\v8_7_5\src\compiler\backend\ia32\instruction-selector-ia32.cc">
+      <Filter>src\compiler\backend\ia32</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

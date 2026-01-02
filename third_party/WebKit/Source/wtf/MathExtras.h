@@ -52,7 +52,7 @@ const float piOverFourFloat = static_cast<float>(M_PI_4);
 const double twoPiDouble = piDouble * 2.0;
 const float twoPiFloat = piFloat * 2.0f;
 
-#if OS(ANDROID) || COMPILER(MSVC)
+#if OS(ANDROID) || (COMPILER(MSVC) && _MSC_VER < 1920)
 // ANDROID and MSVC's math.h does not currently supply log2 or log2f.
 inline double __cdecl log2(double num)
 {
